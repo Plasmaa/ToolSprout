@@ -31,12 +31,11 @@ git push -u origin main
 ```
 
 ## Step 4: Configure `package.json`
-I have already added a placeholder to your `frontend/package.json` file. You need to update it with your actual GitHub details.
+I have already updated your `frontend/package.json` and `vite.config.js` with the correct settings for your repository:
+- Homepage: `https://Plasmaa.github.io/ToolSprout`
+- Base URL: `/ToolSprout/`
 
-1. Open `frontend/package.json`.
-2. Find the line: `"homepage": "https://<YOUR_GITHUB_USERNAME>.github.io/<YOUR_REPO_NAME>"`
-3. Replace `<YOUR_GITHUB_USERNAME>` with your GitHub username.
-4. Replace `<YOUR_REPO_NAME>` with the name of your repository (e.g., `doctools`).
+You don't need to do anything for this step!
 
 ## Step 5: Deploy!
 Now, run the deployment script from the `frontend` folder:
